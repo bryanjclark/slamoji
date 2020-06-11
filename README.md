@@ -4,14 +4,6 @@ _Your friendly neighborhood Slack emoji clearinghouse: [slamoji.com](http://slam
 
 Built with [Gatsby.js](https://www.gatsbyjs.org). (It's my first time with Gatsby, so, uh, be nice.)
 
-## TODO
-
-- Add instructions for how to add slamoji to your Slack team
-- Add a link to this repo so people can contribute
-- Get HTTPS working for the site
-- Improve features/functionality: add search, add keywords, improve mobile layout, add hover states to the little tiles and make them draggable
-- Add some more emoji!
-
 ## FAQs
 
 ### Can I suggest emoji for the site?

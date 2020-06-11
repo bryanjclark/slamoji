@@ -22,8 +22,8 @@ export default function Header() {
         {true ? (
           <div style={styles.navContainer}>
             <NavLink
-              text={"Made by @bryanjclark"}
-              url={"https://twitter.com/bryanjclark"}
+              text={"View on GitHub"}
+              url={"https://github.com/bryanjclark/slamoji"}
             />
           </div>
         ) : null}
