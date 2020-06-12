@@ -2,9 +2,12 @@
 
 import React from "react"
 
-const NavLink = ({ text, url }) => {
+const NavLink = ({ text, url, newTab }) => {
+  const newTabProps = newTab
+    ? { target: "_blank", rel: "noopener noreferrer" }
+    : null
   return (
-    <a style={styles.navLink} href={url}>
+    <a style={styles.navLink} href={url} class={"link"} {...newTabProps}>
       {text}
     </a>
   )
@@ -24,6 +27,7 @@ export default function Header() {
             <NavLink
               text={"View on GitHub"}
               url={"https://github.com/bryanjclark/slamoji"}
+              newTab
             />
           </div>
         ) : null}
@@ -55,7 +59,6 @@ const styles = {
     fontWeight: 700,
   },
   titleLink: {
-    color: "#21242C",
     textDecoration: "none",
   },
   subtitle: {
@@ -64,7 +67,6 @@ const styles = {
     marginTop: 16,
   },
   navLink: {
-    color: "#1865F2",
     fontWeight: 700,
     fontSize: 14,
     marginLeft: 58,

@@ -17,8 +17,9 @@ function SlamojiTile(props: Props) {
   const src = "/slamoji-images/" + slamoji.filename
 
   let containerStyle = styles.container
+  let classProps = hover ? { class: "hoverTile" } : null
   if (hover) {
-    containerStyle = { ...containerStyle, ...styles.hover }
+    containerStyle = { ...containerStyle, ...styles.hoverTile }
   }
 
   // function onDragStart(event) {
@@ -36,6 +37,7 @@ function SlamojiTile(props: Props) {
     <a style={styles.containerLink} href={src} download>
       <div
         style={containerStyle}
+        {...classProps}
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
         // onDragStart={onDragStart}
@@ -66,8 +68,7 @@ const styles = {
     flexShrink: 0,
     cursor: "point",
   },
-  hover: {
-    backgroundColor: "#F7F8FA",
+  hoverTile: {
     borderRadius: 5,
   },
   img: {
@@ -76,7 +77,7 @@ const styles = {
   },
   label: {
     fontSize: 16,
-    color: "#21242C64",
+    opacity: 0.64,
     marginTop: 16,
     cursor: "inherit",
   },

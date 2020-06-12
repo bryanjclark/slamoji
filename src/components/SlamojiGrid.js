@@ -18,6 +18,7 @@ export default function SlamojiGrid() {
     <div style={styles.container}>
       <input
         style={styles.searchBar}
+        class={"searchBar"}
         type={"text"}
         placeholder={"Search"}
         value={searchTerm}
@@ -48,7 +49,6 @@ const styles = {
     flexGrow: 1,
   },
   searchBar: {
-    backgroundColor: "#00000011",
     border: "none",
     borderRadius: 4,
     padding: 16,
@@ -57,10 +57,10 @@ const styles = {
     fontFamily: "Inconsolata",
   },
   noResults: {
-    color: "#21242C64",
     flex: 1,
     flexGrow: 1,
     flexDirection: "row",
     alignItems: "center",
+    opacity: 0.64,
   },
 }
