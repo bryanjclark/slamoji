@@ -8,10 +8,13 @@ import allSlamoji from "../data/slamoji-data.js"
 export default function SlamojiGrid() {
   const [searchTerm, setSearchTerm] = useState("")
 
-  const lowerCaseSearchTerm = searchTerm.toLowerCase()
+  const cleanSearchTerm = searchTerm
+    .toLowerCase()
+    .replace(/[^a-z,-]/gi, "")
+    .trim()
   const filteredSlamoji =
     searchTerm.length > 0
-      ? allSlamoji.filter(x => x.filename.includes(lowerCaseSearchTerm))
+      ? allSlamoji.filter(x => x.filename.includes(cleanSearchTerm))
       : allSlamoji
 
   return (
