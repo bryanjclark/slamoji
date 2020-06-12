@@ -34,7 +34,7 @@ function SlamojiTile(props: Props) {
   // }
 
   return (
-    <a style={styles.containerLink} href={src} download>
+    <a style={styles.containerLink} href={src} download class={"tileLink"}>
       <div
         style={containerStyle}
         {...classProps}
