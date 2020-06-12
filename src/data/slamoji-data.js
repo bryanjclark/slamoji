@@ -67,6 +67,18 @@ const rawSlamoji: Array<Array<string>> = [
   ["chefs-kiss.png", "an emoji of a chef kissing his fingers"],
   ["party-snap.gif", "snapping fingers, party-style"],
   ["snap.gif", "snapping fingers"],
+  ["shocked-pikachu.png", "a shocked-looking pikachu"],
+  ["crying-while-eating.gif", "a woman crying and eating ice cream"],
+  ["shocked-sonic.png", "sonic the hedgehog, looking shocked"],
+  ["this-is-fine.gif", "animated this-is-fine dog"],
+  ["liar.jpg", "a witch calling somebody a liar"],
+  ["bad-pun-dog.png", "that meme of the dog telling a bad joke"],
+  ["high-five.gif", "animated high-five hands"],
+  ["cage-cry.gif", "nick cage crying"],
+  ["dumpster-fire.gif", "a dumpster on fire"],
+  ["shocked-cat.png", "a shocked cat"],
+  ["hold-on-to-your-butts.jpg", "hold on to your butts"],
+  ["so-close.png", "emoji hands making a so-close pinch gesture"],
 ]
 
 const allSlamoji: Array<Slamoji> = rawSlamoji
