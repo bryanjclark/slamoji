@@ -18,7 +18,8 @@ If you don't wanna edit any code, or don't know how to do a pull-request, it's a
 
 #### Option B: Make a pull request
 
-The two-step process for adding an additional emoji is pretty straightforward:
+The three-step process for adding an additional emoji is pretty straightforward:
 
 1. Add the image to `public/slamoji-images`.
 2. Add the image's info to `src/data/slamoji-data.js`
+3. Re-zip the `slamoji-images` file so the Download All button works. (TODO: Automate this step!)
