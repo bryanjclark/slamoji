@@ -6,6 +6,7 @@ export type Slamoji = {|
 |}
 
 const rawSlamoji: Array<Array<string>> = [
+  // Initial batch
   ["ace-dance.gif", "ace ventura dancing"],
   ["air-quotes-closed.gif", "hand making air-quotes sign, use with air-quotes"],
   ["air-quotes.gif", "hand making the air-quotes sign"],
@@ -51,6 +52,21 @@ const rawSlamoji: Array<Array<string>> = [
   ["this-this.gif", "a little panda pointing upwards as if to say this, this"],
   ["tumbleweed.gif", "a lonely tumbleweed"],
   ["ty.gif", "the letters ty, short for thank you"],
+
+  // Added June 12, 2020
+  ["tom-nook.png", "animal crossing's tom nook"],
+  ["mild-panic.png", "an emoji face with a panicked look"],
+  ["hide-the-pain.png", "a grimacing man"],
+  ["party-gritty.gif", "gritty, party-style"],
+  ["gritty.png", "gritty, the philly flyer's mascot"],
+  ["black-lives-matter.png", "a raised black fist"],
+  ["blm.png", "the letters BLM, for black lives matter"],
+  ["cmd-z.png", "command z, the undo symbol"],
+  ["bob-ross.png", "bob ross, the painter"],
+  ["super-cool.gif", "the words super cool"],
+  ["chefs-kiss.png", "an emoji of a chef kissing his fingers"],
+  ["party-snap.gif", "snapping fingers, party-style"],
+  ["snap.gif", "snapping fingers"],
 ]
 
 const allSlamoji: Array<Slamoji> = rawSlamoji
