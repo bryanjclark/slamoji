@@ -2,12 +2,14 @@
 
 import React from "react"
 
-const NavLink = ({ text, url, newTab }) => {
+const NavLink = ({ text, url, newTab, isDownload }) => {
   const newTabProps = newTab
     ? { target: "_blank", rel: "noopener noreferrer" }
     : null
+  const isDownloadProps = isDownload ? { download: true } : null
+  const spreadProps = { ...newTabProps, ...isDownloadProps }
   return (
-    <a style={styles.navLink} href={url} class={"link"} {...newTabProps}>
+    <a style={styles.navLink} href={url} class={"link"} {...spreadProps}>
       {text}
     </a>
   )
@@ -25,9 +27,15 @@ export default function Header() {
         {true ? (
           <div style={styles.navContainer}>
             <NavLink
+              text={"Download All"}
+              url={"/slamoji-images.zip"}
+              isDownload={true}
+            />
+            <NavLink
               text={"View on GitHub"}
               url={"https://github.com/bryanjclark/slamoji"}
               newTab
+              isDownload={false}
             />
           </div>
         ) : null}
