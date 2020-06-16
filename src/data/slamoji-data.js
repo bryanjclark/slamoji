@@ -79,6 +79,11 @@ const rawSlamoji: Array<Array<string>> = [
   ["shocked-cat.png", "a shocked cat"],
   ["hold-on-to-your-butts.jpg", "hold on to your butts"],
   ["so-close.png", "emoji hands making a so-close pinch gesture"],
+  ["galaxy-brain.png", "galaxy brain"],
+  ["sunglasses-crying.jpg", "sunglasses emoji that's also crying"],
+
+  // Added June 16, 2020
+  ["cat-typing.gif", "a cat furiously typing on its keyboard"],
 ]
 
 const allSlamoji: Array<Slamoji> = rawSlamoji
