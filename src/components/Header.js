@@ -7,6 +7,7 @@ const NavLink = ({ text, url, newTab, isDownload }) => {
     ? { target: "_blank", rel: "noopener noreferrer" }
     : null
   const isDownloadProps = isDownload ? { download: true } : null
+  // $FlowFixMe
   const spreadProps = { ...newTabProps, ...isDownloadProps }
   return (
     <a style={styles.navLink} href={url} class={"link"} {...spreadProps}>
@@ -29,6 +30,7 @@ export default function Header() {
             <NavLink
               text={"Download All"}
               url={"/slamoji-images.zip"}
+              newTab={false}
               isDownload={true}
             />
             <NavLink
