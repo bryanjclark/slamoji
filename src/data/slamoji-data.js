@@ -84,6 +84,15 @@ const rawSlamoji: Array<Array<string>> = [
 
   // Added June 16, 2020
   ["cat-typing.gif", "a cat furiously typing on its keyboard"],
+
+  // Added August 29, 2020
+  ["nope.gif", "beaker from the muppets shaking his head no"],
+  ["party-mask-parrot.gif", "party parrot, but with a facemask"],
+  ["woohoo.png", "homer simpson saying woohoo"],
+  ["eyeroll.gif", "rolling your eyes"],
+  ["facemask.png", "emoji with a facemask"],
+  ["finger-guns.png", "emoji smiley with finger guns"],
+  ["galaxy-brain.jpg", "galaxy brain meme"],
 ]
 
 const allSlamoji: Array<Slamoji> = rawSlamoji
