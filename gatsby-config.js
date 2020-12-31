@@ -27,5 +27,11 @@ module.exports = {
         apiKey: "15bb9522537a2fd4c49303f2d56187a5",
       },
     },
+    {
+      resolve: `gatsby-plugin-plausible`,
+      options: {
+        domain: `slamoji.com`,
+      },
+    },
   ],
 }
