@@ -45,7 +45,7 @@ const rawSlamoji: Array<Array<string>> = [
   // ["pokeball.gif", "a spinning pokeball"],
   // ["rubberduck.png", "a rubber duck"],
   // ["saaaame.png", "the word same with many a's"],
-  // ["sadpanda.png", "a very sad-looking panda"],
+  ["sadpanda.png", "a very sad-looking panda"],
   // ["sketch.png", "the yellow diamond for the Sketch app"],
   ["sonic-conga.gif", "an endless conga line of sonic the hedgehog"],
   ["thank-you.png", "the words thank you"],

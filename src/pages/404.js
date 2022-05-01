@@ -1,3 +1,5 @@
+// @flow
+
 import React from "react"
 
 import SlamojiTile from "../components/SlamojiTile"
@@ -13,7 +15,7 @@ export default function PageNotFound() {
         <SlamojiTile slamoji={pandaSlamoji} />
         <p>Looks like that page doesn't exist.</p>
         <p>
-          Head back <a href={"https://slamoji.com"}>home</a>
+          Head back <a href={"/"}>home</a>
         </p>
       </div>
     </div>
