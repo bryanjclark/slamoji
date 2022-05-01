@@ -21,7 +21,7 @@ export default function Header() {
     <div style={styles.container}>
       <div style={styles.topContainer}>
         <div style={styles.title}>
-          <a style={styles.titleLink} href={"https://slamoji.com"}>
+          <a style={styles.titleLink} href={"/"}>
             Slamoji
           </a>
         </div>
