@@ -4,7 +4,7 @@ import SlamojiTile from "../components/SlamojiTile"
 import allSlamoji from "../data/slamoji-data.js"
 
 export default function PageNotFound() {
-  const pandaSlamoji = allSlamoji.filter(x => x.filename.includes("panda"))[0]
+  const pandaSlamoji = allSlamoji.filter(x => x.filename.includes("sadpanda"))[0]
 
   return (
     <div style={styles.outerContainer}>
